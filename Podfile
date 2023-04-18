@@ -7,5 +7,8 @@ target 'TestiOS' do
 
   # Pods for TestiOS
   pod 'SnapKit'
+  pod 'Masonry'
+  pod 'LookinServer', :configurations => ['Debug']
+  pod 'CocoaAsyncSocket' 
 
 end

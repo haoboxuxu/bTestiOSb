@@ -12,7 +12,7 @@ import AVKit
 
 let vurl = "https://bjtuhaobo.oss-cn-hangzhou.aliyuncs.com/%E5%AE%A2%E8%BF%90%E7%AB%99%E5%9C%BA%E6%99%AF%E8%A7%86%E9%A2%91%E7%89%87%E6%AE%B5-%E8%A3%81%E5%87%8F/%E6%97%85%E5%AE%A2%E9%95%BF%E5%BB%8A/lowdensity3_16_1.mp4"
 
-class VC2: UIViewController {
+class ViewPlayVC: UIViewController {
     
     let redView: UIView = {
         let v = UIView()
@@ -79,9 +79,16 @@ class VC2: UIViewController {
 
         present(vc, animated: true) {
             vc.player?.play()
-            MPNowPlayingInfoCenter.default().nowPlayingInfo = [MPMediaItemPropertyTitle : "Title!",  MPMediaItemPropertyAlbumTitle : "Subtitle!"]
+            MPNowPlayingInfoCenter.default().nowPlayingInfo = [
+                MPMediaItemPropertyTitle : "Title!",
+                MPMediaItemPropertyArtist : "ownerName",
+                MPMediaItemPropertyAlbumTitle : "Subtitle!"
+            ]
         }
         
+        testCom { res in
+            print("testCom \(res)")
+        }
     }
 
     override func viewDidLayoutSubviews() {
@@ -91,6 +98,14 @@ class VC2: UIViewController {
             make.right.equalTo(self.view.snp.right).offset(-10)
             make.top.equalTo(self.view.snp.top).offset(10)
             make.bottom.equalTo(self.view.snp.bottom).offset(-10)
+        }
+    }
+    
+    func testCom(_ callback: @escaping ((Bool) -> Void)) {
+        callback(true)
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+            callback(false)
         }
     }
 }

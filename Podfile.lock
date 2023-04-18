@@ -1,16 +1,30 @@
 PODS:
+  - CocoaAsyncSocket (7.6.5)
+  - LookinServer (1.1.5):
+    - LookinServer/Core (= 1.1.5)
+  - LookinServer/Core (1.1.5)
+  - Masonry (1.1.0)
   - SnapKit (5.6.0)
 
 DEPENDENCIES:
+  - CocoaAsyncSocket
+  - LookinServer
+  - Masonry
   - SnapKit
 
 SPEC REPOS:
   trunk:
+    - CocoaAsyncSocket
+    - LookinServer
+    - Masonry
     - SnapKit
 
 SPEC CHECKSUMS:
+  CocoaAsyncSocket: 065fd1e645c7abab64f7a6a2007a48038fdc6a99
+  LookinServer: 2893f2bae53cbf3fd49bbe1a8ea1745582ef1317
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   SnapKit: e01d52ebb8ddbc333eefe2132acf85c8227d9c25
 
-PODFILE CHECKSUM: 018d485f20ac68ebc16c0e72a98d92688bad82d4
+PODFILE CHECKSUM: c74e46207ba8885391f0ed5d512713a89d17201e
 
 COCOAPODS: 1.12.0

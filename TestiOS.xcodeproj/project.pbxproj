@@ -7,27 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B427116129DABB8C00FB1EAF /* HBClassProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = B427116029DABB8C00FB1EAF /* HBClassProxy.m */; };
 		B433CD3529C85ABD00A81648 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B433CD3429C85ABD00A81648 /* AppDelegate.swift */; };
 		B433CD3729C85ABD00A81648 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B433CD3629C85ABD00A81648 /* SceneDelegate.swift */; };
-		B433CD3929C85ABD00A81648 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B433CD3829C85ABD00A81648 /* ViewController.swift */; };
-		B433CD3C29C85ABD00A81648 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B433CD3A29C85ABD00A81648 /* Main.storyboard */; };
+		B433CD3929C85ABD00A81648 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B433CD3829C85ABD00A81648 /* HomeViewController.swift */; };
 		B433CD3E29C85ABE00A81648 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B433CD3D29C85ABE00A81648 /* Assets.xcassets */; };
 		B433CD4129C85ABE00A81648 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B433CD3F29C85ABE00A81648 /* LaunchScreen.storyboard */; };
-		B433CD4929C861CA00A81648 /* VC2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B433CD4829C861CA00A81648 /* VC2.swift */; };
+		B433CD4929C861CA00A81648 /* ViewPlayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B433CD4829C861CA00A81648 /* ViewPlayVC.swift */; };
+		B447247A29DAC069003FE1B4 /* TestProxyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B447247929DAC069003FE1B4 /* TestProxyVC.m */; };
+		B44D286329D538C6004AF189 /* TestAnchorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44D286229D538C6004AF189 /* TestAnchorVC.swift */; };
+		B44D287029D5858F004AF189 /* BBGradientVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B44D286F29D5858F004AF189 /* BBGradientVC.m */; };
+		B44D287929D68385004AF189 /* FigmaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B44D287829D68385004AF189 /* FigmaVC.swift */; };
+		B47125D029ECFB4800CC3FA3 /* SocketVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47125CF29ECFB4800CC3FA3 /* SocketVC.swift */; };
+		B47125D629ED195B00CC3FA3 /* SocketManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B47125D529ED195B00CC3FA3 /* SocketManager.m */; };
+		B47125D929ED1A7E00CC3FA3 /* SocketServerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B47125D829ED1A7E00CC3FA3 /* SocketServerVC.m */; };
+		B47125DC29ED1A8D00CC3FA3 /* SocketClientVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B47125DB29ED1A8D00CC3FA3 /* SocketClientVC.m */; };
+		B4BF910329E4060900BD6E7E /* RichTextVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B4BF910229E4060900BD6E7E /* RichTextVC.m */; };
+		B4EFA76B29DAC7A7002E8328 /* HitTestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EFA76A29DAC7A7002E8328 /* HitTestVC.swift */; };
+		B4EFA77029DBD189002E8328 /* TestLogVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B4EFA76F29DBD189002E8328 /* TestLogVC.m */; };
 		EA9B622050A66CB7477E0111 /* Pods_TestiOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5367C1D18A0ABEB2AC4FFC0D /* Pods_TestiOS.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5367C1D18A0ABEB2AC4FFC0D /* Pods_TestiOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestiOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B427115F29DABB8C00FB1EAF /* HBClassProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBClassProxy.h; sourceTree = "<group>"; };
+		B427116029DABB8C00FB1EAF /* HBClassProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HBClassProxy.m; sourceTree = "<group>"; };
 		B433CD3129C85ABD00A81648 /* TestiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B433CD3429C85ABD00A81648 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B433CD3629C85ABD00A81648 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B433CD3829C85ABD00A81648 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B433CD3B29C85ABD00A81648 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B433CD3829C85ABD00A81648 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B433CD3D29C85ABE00A81648 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B433CD4029C85ABE00A81648 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B433CD4229C85ABE00A81648 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B433CD4829C861CA00A81648 /* VC2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC2.swift; sourceTree = "<group>"; };
+		B433CD4829C861CA00A81648 /* ViewPlayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPlayVC.swift; sourceTree = "<group>"; };
+		B447247829DAC069003FE1B4 /* TestProxyVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestProxyVC.h; sourceTree = "<group>"; };
+		B447247929DAC069003FE1B4 /* TestProxyVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestProxyVC.m; sourceTree = "<group>"; };
+		B44D286229D538C6004AF189 /* TestAnchorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAnchorVC.swift; sourceTree = "<group>"; };
+		B44D286D29D5858E004AF189 /* TestiOS-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestiOS-Bridging-Header.h"; sourceTree = "<group>"; };
+		B44D286E29D5858E004AF189 /* BBGradientVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBGradientVC.h; sourceTree = "<group>"; };
+		B44D286F29D5858F004AF189 /* BBGradientVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBGradientVC.m; sourceTree = "<group>"; };
+		B44D287829D68385004AF189 /* FigmaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FigmaVC.swift; sourceTree = "<group>"; };
+		B47125CF29ECFB4800CC3FA3 /* SocketVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketVC.swift; sourceTree = "<group>"; };
+		B47125D429ED195B00CC3FA3 /* SocketManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocketManager.h; sourceTree = "<group>"; };
+		B47125D529ED195B00CC3FA3 /* SocketManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocketManager.m; sourceTree = "<group>"; };
+		B47125D729ED1A7E00CC3FA3 /* SocketServerVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocketServerVC.h; sourceTree = "<group>"; };
+		B47125D829ED1A7E00CC3FA3 /* SocketServerVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocketServerVC.m; sourceTree = "<group>"; };
+		B47125DA29ED1A8D00CC3FA3 /* SocketClientVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocketClientVC.h; sourceTree = "<group>"; };
+		B47125DB29ED1A8D00CC3FA3 /* SocketClientVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocketClientVC.m; sourceTree = "<group>"; };
+		B4BF910129E4060900BD6E7E /* RichTextVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RichTextVC.h; sourceTree = "<group>"; };
+		B4BF910229E4060900BD6E7E /* RichTextVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RichTextVC.m; sourceTree = "<group>"; };
+		B4EFA76A29DAC7A7002E8328 /* HitTestVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HitTestVC.swift; sourceTree = "<group>"; };
+		B4EFA76E29DBD189002E8328 /* TestLogVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestLogVC.h; sourceTree = "<group>"; };
+		B4EFA76F29DBD189002E8328 /* TestLogVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestLogVC.m; sourceTree = "<group>"; };
 		E2667E7C158B1B550F0CF1F3 /* Pods-TestiOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestiOS.release.xcconfig"; path = "Target Support Files/Pods-TestiOS/Pods-TestiOS.release.xcconfig"; sourceTree = "<group>"; };
 		F3C7C184349AE50DF6FEF1E6 /* Pods-TestiOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestiOS.debug.xcconfig"; path = "Target Support Files/Pods-TestiOS/Pods-TestiOS.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -44,6 +75,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B427115E29DABB6800FB1EAF /* Proxy */ = {
+			isa = PBXGroup;
+			children = (
+				B427115F29DABB8C00FB1EAF /* HBClassProxy.h */,
+				B427116029DABB8C00FB1EAF /* HBClassProxy.m */,
+			);
+			path = Proxy;
+			sourceTree = "<group>";
+		};
 		B433CD2829C85ABC00A81648 = {
 			isa = PBXGroup;
 			children = (
@@ -67,14 +107,41 @@
 			children = (
 				B433CD3429C85ABD00A81648 /* AppDelegate.swift */,
 				B433CD3629C85ABD00A81648 /* SceneDelegate.swift */,
-				B433CD3829C85ABD00A81648 /* ViewController.swift */,
-				B433CD4829C861CA00A81648 /* VC2.swift */,
-				B433CD3A29C85ABD00A81648 /* Main.storyboard */,
+				B433CD3829C85ABD00A81648 /* HomeViewController.swift */,
+				B433CD4829C861CA00A81648 /* ViewPlayVC.swift */,
+				B44D286229D538C6004AF189 /* TestAnchorVC.swift */,
+				B44D287829D68385004AF189 /* FigmaVC.swift */,
+				B4EFA76A29DAC7A7002E8328 /* HitTestVC.swift */,
+				B44D286E29D5858E004AF189 /* BBGradientVC.h */,
+				B44D286F29D5858F004AF189 /* BBGradientVC.m */,
+				B447247829DAC069003FE1B4 /* TestProxyVC.h */,
+				B447247929DAC069003FE1B4 /* TestProxyVC.m */,
+				B4EFA76E29DBD189002E8328 /* TestLogVC.h */,
+				B4EFA76F29DBD189002E8328 /* TestLogVC.m */,
+				B4BF910129E4060900BD6E7E /* RichTextVC.h */,
+				B4BF910229E4060900BD6E7E /* RichTextVC.m */,
+				B47125CC29ECFB2400CC3FA3 /* Socket */,
+				B427115E29DABB6800FB1EAF /* Proxy */,
 				B433CD3D29C85ABE00A81648 /* Assets.xcassets */,
 				B433CD3F29C85ABE00A81648 /* LaunchScreen.storyboard */,
 				B433CD4229C85ABE00A81648 /* Info.plist */,
+				B44D286D29D5858E004AF189 /* TestiOS-Bridging-Header.h */,
 			);
 			path = TestiOS;
+			sourceTree = "<group>";
+		};
+		B47125CC29ECFB2400CC3FA3 /* Socket */ = {
+			isa = PBXGroup;
+			children = (
+				B47125CF29ECFB4800CC3FA3 /* SocketVC.swift */,
+				B47125D429ED195B00CC3FA3 /* SocketManager.h */,
+				B47125D529ED195B00CC3FA3 /* SocketManager.m */,
+				B47125D729ED1A7E00CC3FA3 /* SocketServerVC.h */,
+				B47125D829ED1A7E00CC3FA3 /* SocketServerVC.m */,
+				B47125DA29ED1A8D00CC3FA3 /* SocketClientVC.h */,
+				B47125DB29ED1A8D00CC3FA3 /* SocketClientVC.m */,
+			);
+			path = Socket;
 			sourceTree = "<group>";
 		};
 		B754D284E761FCB8869F383B /* Pods */ = {
@@ -112,6 +179,8 @@
 			dependencies = (
 			);
 			name = TestiOS;
+			packageProductDependencies = (
+			);
 			productName = TestiOS;
 			productReference = B433CD3129C85ABD00A81648 /* TestiOS.app */;
 			productType = "com.apple.product-type.application";
@@ -128,6 +197,7 @@
 				TargetAttributes = {
 					B433CD3029C85ABD00A81648 = {
 						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
 					};
 				};
 			};
@@ -140,6 +210,8 @@
 				Base,
 			);
 			mainGroup = B433CD2829C85ABC00A81648;
+			packageReferences = (
+			);
 			productRefGroup = B433CD3229C85ABD00A81648 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -156,7 +228,6 @@
 			files = (
 				B433CD4129C85ABE00A81648 /* LaunchScreen.storyboard in Resources */,
 				B433CD3E29C85ABE00A81648 /* Assets.xcassets in Resources */,
-				B433CD3C29C85ABD00A81648 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,24 +280,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B433CD3929C85ABD00A81648 /* ViewController.swift in Sources */,
+				B47125D629ED195B00CC3FA3 /* SocketManager.m in Sources */,
+				B44D287029D5858F004AF189 /* BBGradientVC.m in Sources */,
+				B433CD3929C85ABD00A81648 /* HomeViewController.swift in Sources */,
+				B47125D029ECFB4800CC3FA3 /* SocketVC.swift in Sources */,
 				B433CD3529C85ABD00A81648 /* AppDelegate.swift in Sources */,
+				B47125D929ED1A7E00CC3FA3 /* SocketServerVC.m in Sources */,
+				B4BF910329E4060900BD6E7E /* RichTextVC.m in Sources */,
+				B427116129DABB8C00FB1EAF /* HBClassProxy.m in Sources */,
+				B44D287929D68385004AF189 /* FigmaVC.swift in Sources */,
+				B44D286329D538C6004AF189 /* TestAnchorVC.swift in Sources */,
+				B4EFA76B29DAC7A7002E8328 /* HitTestVC.swift in Sources */,
 				B433CD3729C85ABD00A81648 /* SceneDelegate.swift in Sources */,
-				B433CD4929C861CA00A81648 /* VC2.swift in Sources */,
+				B47125DC29ED1A8D00CC3FA3 /* SocketClientVC.m in Sources */,
+				B447247A29DAC069003FE1B4 /* TestProxyVC.m in Sources */,
+				B4EFA77029DBD189002E8328 /* TestLogVC.m in Sources */,
+				B433CD4929C861CA00A81648 /* ViewPlayVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B433CD3A29C85ABD00A81648 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B433CD3B29C85ABD00A81648 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B433CD3F29C85ABE00A81648 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -358,14 +433,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V32BKVPBTJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TestiOS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -377,6 +452,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = top.haoboxx.TestiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TestiOS/TestiOS-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -388,14 +465,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = V32BKVPBTJ;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TestiOS/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -407,6 +484,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = top.haoboxx.TestiOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "TestiOS/TestiOS-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
